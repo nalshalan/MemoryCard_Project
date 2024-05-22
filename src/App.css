@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image {
+  margin-top: 22px;
+  width: 330px;
+  height: 330px;
+  margin-left: 37%;
+
+}
+
+.appTitle {
   text-align: center;
+  color: #000000;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+p, h2 {
+  color: #ffffff;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p, h1, h2 {
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+button {
+  width: 50px;
+  height: 30px;
+  font-size: 18px;
 }
 
-.card {
-  padding: 2em;
+p {
+  font-size: 17px;
 }
 
-.read-the-docs {
-  color: #888;
+.buttonContainer, .scoreInfo {
+  background-color: #222222;
+  padding: 2px;
 }
